@@ -1,0 +1,12 @@
+{
+  "name": "mini-social-media-express",
+  "version": "1.0.0",
+  "description": "Mini social media platform with profiles, posts, comments, likes and follows",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
+  }
+}
